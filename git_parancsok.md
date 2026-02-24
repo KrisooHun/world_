@@ -56,6 +56,7 @@ A lista tartalmazza a **helyi (local)** és a **távoli (remote)** repository-va
 ### `git commit -m "Üzenet"`
 
 - A staging area tartalmának **mentése (commit)** a repository történetébe. 
+
 - A másodiknál az összes snapshot mentésre kerül a lokális adatbázisban (repository-ban)
   
   ```bash
@@ -141,6 +142,7 @@ git pull && git push
   ```bash
   git branch develop
   ```
+
 - Új branch létrehozása **és** átváltás rá.
   
   ```bash
@@ -196,6 +198,7 @@ git config --global user.email "email@pelda.hu"
 ```
 
 - `--global`: minden git projektre vonatkozik
+
 - Ha csak egy adott projektre akarod megadni:
   
   ```bash
@@ -232,9 +235,13 @@ git config user.name
 ### A git használatának bevált főbb lépései:
 
 1. Üres remote repo létrehozása a github-on
+
 2. git clone url-cím
+
 3. Belépés a könyvtárba (cd klónozottKönyvtár) és git config ...
+
 4. Fejlesztés, kódolás
+
 5. git add, git commit, git pull && git push
    
    ### Hitelesítés több felhasználó esetén Windows-on
