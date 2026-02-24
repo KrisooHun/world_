@@ -1,3 +1,4 @@
+<<<<<<< tamas
 *{
     margin: 0;
     padding: 0;
@@ -9,3 +10,20 @@ body{
     background: #bebebe;
 }
 
+=======
+body { background-color: #f8f9fa; }
+        .card { 
+            transition: transform 0.3s ease, shadow 0.3s ease;
+            height: 100%;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+        }
+        .header-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 0;
+            margin-bottom: 40px;
+        }
+>>>>>>> develop
