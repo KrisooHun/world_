@@ -1,3 +1,16 @@
+<<<<<<< tamas
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #bebebe;
+}
+
+=======
 body { background-color: #f8f9fa; }
         .card { 
             transition: transform 0.3s ease, shadow 0.3s ease;
@@ -13,3 +26,4 @@ body { background-color: #f8f9fa; }
             padding: 60px 0;
             margin-bottom: 40px;
         }
+>>>>>>> develop
